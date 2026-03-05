@@ -1,6 +1,6 @@
 (library
  (name currency_conversion_mnemonics)
  (libraries core zarith)
- (modules q_with_sexp dijkstra_intf dijkstra mnemonic)
+ (modules q_with_sexp dijkstra_intf dijkstra mnemonic algorithm)
  (preprocess
   (pps ppx_jane)))
