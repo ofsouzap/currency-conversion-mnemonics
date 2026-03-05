@@ -1,0 +1,25 @@
+version = 0.28.1
+
+# Line length and margins
+margin = 80
+wrap-comments = true
+wrap-fun-args = true
+
+# Breaking decisions
+break-cases = fit-or-vertical
+break-infix = fit-or-vertical
+break-fun-decl = wrap
+break-fun-sig = wrap
+
+# Pattern matching
+indicate-nested-or-patterns = space
+
+# Let bindings
+let-and = compact
+
+# Type declarations
+type-decl = compact
+
+# Comments and docstrings
+parse-docstrings = true
+doc-comments = before
